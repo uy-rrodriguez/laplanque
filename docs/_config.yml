@@ -2,4 +2,7 @@ title: La Planque · Avignon
 description: Boire, Manger, Jouer | Bar à Jeux au 19 rue des Lices, Avignon. Mardi au Vendredi 18h-00h & Samedi 14h-00h.
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme

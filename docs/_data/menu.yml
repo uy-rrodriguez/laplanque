@@ -1,0 +1,46 @@
+# Quick bites
+- name: Apéro
+  descrip: Pour des petites faims ou à partager en début de soirée.
+  icon: 👌
+  items:
+  - name: Frites
+    price: 4.5
+    type: veg
+
+  - name: Nuggets
+    price: 5.5
+  
+  - name: Falafels
+    price: 5
+    type: veg
+
+###
+
+# Mains
+- name: Burgers
+  descrip: Pain BIO fait maison, viande française de qualité.
+  icon: 🍔
+  items:
+  - name: Falafel Chèvre
+    price: 17
+    type: veg
+
+  - name: Double Cheese
+    price: 18
+  
+  - name: Poulet Bacon
+    price: 18
+
+###
+
+# Drinks
+
+- name: Bières
+  descrip: Blonde, Blanche et IPA
+  icon: 🍻
+  items:
+  - name: Démi
+    price: 4
+
+  - name: Pinte
+    price: 7.5

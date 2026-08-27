@@ -1,0 +1,16 @@
+<div class="menu">
+    {% for group in site.data.menu %}
+    <div class="menu-group">
+        {{ group.icon }}&nbsp;&nbsp;{{ group.name }}
+        <ul>
+            {% for item in group.items %}
+            <li>
+                <span class="menu-item-name">{{ item.name }}</span>
+                <span class="menu-item-price">{{ item.price }}</span>
+                {% if item.type == 'veg' %}<i class="label menu-item-type">végé</i>{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</div>
